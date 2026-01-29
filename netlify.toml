@@ -1,0 +1,9 @@
+[build]
+  command = "cd docs && npm install && npx myst build"
+  publish = "docs/_build/html"
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://jupyter-book-blog.netlify.app/:splat"
+  status = 200
+  force = true
