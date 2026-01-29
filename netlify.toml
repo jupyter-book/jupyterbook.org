@@ -25,3 +25,15 @@
   to = "https://jupyterbook.org/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/compass"
+  to = "https://compass.jupyterbook.org/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/compass/*"
+  to = "https://compass.jupyterbook.org/:splat"
+  status = 200
+  force = true
