@@ -3,7 +3,7 @@ site:
   template: book-theme
   nav:
     - title: Docs
-      url: /get-started
+      url: /docs
     - title: Community
       url: /community
     - title: Ecosystem
