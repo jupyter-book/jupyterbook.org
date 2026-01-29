@@ -13,7 +13,7 @@ Built on the [MyST Document Engine](https://mystmd.org) with faster builds, mode
 Jupyter Book 2 still has many improvements to be made.
 Please join us and [contribute to Jupyter Book](./contribute.md) so we can make it better!
 
-[Upgrade from 1.0](#upgrade-tldr) • [Known limitations](#known-limitations) • [Frequently Asked Questions](#faq-general) • [Looking for 1.0 documentation?](https://jupyterbook.org/v1)
+[Upgrade from 1.0](/docs/resources/upgrade#upgrade-tldr) • [Known limitations](/docs/resources/faq#known-limitations) • [Frequently Asked Questions](/docs/resources/faq#faq-general) • [Looking for 1.0 documentation?](https://jupyterbook.org/v1)
 :::
 
 +++ {"class": "col-page-inset"}
@@ -37,7 +37,7 @@ pip install jupyter-book
 jupyter book start
 ```
 
-{button}`Get started → <./get-started.md>` {button}`Upgrade from JB1 → <./resources/upgrade.md>`
+{button}`Get started → </docs/get-started>` {button}`Upgrade from JB1 → </docs/resources/upgrade>`
 ::::::
 
 +++
@@ -88,28 +88,28 @@ With the recent release of Jupyer Book 2, you will explicitly need to add `jupyt
 
 :::::{grid} 1 2 3 3
 ::::{card} 📘 Get Started
-:link: ./get-started.md
+:link: /docs/get-started
 Build your first book in minutes
 +++
-[Quick start →](./get-started.md)
+[Quick start →](/docs/get-started)
 ::::
 ::::{card} 📝 Author Content
-:link: ./authoring.md
+:link: /docs/authoring
 Write with MyST Markdown
 +++
-[Learn authoring →](./authoring.md)
+[Learn authoring →](/docs/authoring)
 ::::
 ::::{card} 🚀 Build & Publish
-:link: ./build-and-publish/index.md
+:link: /docs/build-and-publish
 Deploy to the web
 +++
-[Publish guide →](./build-and-publish/index.md)
+[Publish guide →](/docs/build-and-publish)
 ::::
 ::::{card} ⚙️ Extend with Plugins
-:link: ./plugins.md
+:link: /docs/plugins
 Customize your workflow
 +++
-[Explore plugins →](./plugins.md)
+[Explore plugins →](/docs/plugins)
 ::::
 ::::{card} 💬 Community
 :link: ./community.md
@@ -132,7 +132,7 @@ Explore existing books and projects
 
 ::::{grid} 1 1 2 2
 :::{card} Upgrade guide
-:link: ./resources/upgrade.md
+:link: /docs/resources/upgrade
 Upgrade from Jupyter Book 1 to 2
 +++
 Includes an FAQ about known limitations and gotchas
@@ -142,7 +142,7 @@ Includes an FAQ about known limitations and gotchas
 :link: ./community/help.md
 Questions or issues?
 +++
-Visit our [FAQ](./resources/faq.md) for common questions, or reach out via [Discord](https://discord.mystmd.org), [Discussions](https://github.com/orgs/jupyter-book/discussions), or [Vote on features](./community/vote.md)
+Visit our [FAQ](/docs/resources/faq) for common questions, or reach out via [Discord](https://discord.mystmd.org), [Discussions](https://github.com/orgs/jupyter-book/discussions), or [Vote on features](./community/vote.md)
 :::
 
 :::{card} Cite Jupyter Book

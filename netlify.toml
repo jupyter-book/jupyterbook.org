@@ -3,19 +3,25 @@
   publish = "docs/_build/html"
 
 [[redirects]]
+  from = "/blog"
+  to = "https://jupyter-book-blog.netlify.app/blog/"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/blog/*"
   to = "https://jupyter-book-blog.netlify.app/blog/:splat"
   status = 200
   force = true
 
 [[redirects]]
-  from = "/docs/*"
-  to = "https://jupyter-book.readthedocs.io/:splat"
+  from = "/docs"
+  to = "https://jupyterbook.org/"
   status = 200
   force = true
 
 [[redirects]]
-  from = "/compass/*"
-  to = "https://compass.jupyterbook.org/:splat"
+  from = "/docs/*"
+  to = "https://jupyterbook.org/:splat"
   status = 200
   force = true

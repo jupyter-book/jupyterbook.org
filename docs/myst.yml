@@ -22,47 +22,9 @@ project:
     - src/admonition.mjs
     # The issue tables plugin is what we use for the roadmap and feature voting pages
     - https://github.com/jupyter-book/myst-plugins/releases/download/github-issue-table@2025-12-07/index.mjs
-  github: https://github.com/jupyter-book/jupyter-book
+  github: https://github.com/jupyter-book/jupyterbook.org
   toc:
     - file: index.md
-    - title: Get Started
-      file: get-started.md
-      children:
-        - file: get-started/install.md
-        - file: get-started/init.md
-        - file: get-started/create-content.md
-        - file: get-started/build-websites.md
-        - file: get-started/export-pdfs.md
-        - file: get-started/cross-reference.md
-        - file: get-started/publish.md
-    - title: Author Content
-      file: authoring.md
-      children:
-        - file: authoring/mystmd.md
-        - file: authoring/math.md
-        - file: authoring/authorship.md
-        - file: authoring/roles-and-directives.md
-        - file: authoring/table-of-contents.md
-        - file: authoring/file-types.md
-    - title: Build & Publish
-      file: build-and-publish/index.md
-      children:
-        - file: build-and-publish/website.md
-        - file: build-and-publish/export.md
-    - title: Execute & Compute
-      file: execution.md
-      children:
-        - file: execution/execution.md
-        - file: execution/jupyterlab.md
-        - file: execution/generate-myst.md
-    - title: Extend with Plugins
-      file: plugins.md
-      children:
-        - file: plugins/plugins.md
-        - file: plugins/directives-and-roles.md
-        - file: plugins/debug.md
-        - file: plugins/ast.md
-        - file: plugins/dependencies.md
     - title: Community
       file: community.md
       children:
@@ -80,10 +42,6 @@ project:
     - title: Resources
       children:
         - file: cite.md
-        - file: resources/faq.md
-        - file: resources/upgrade.md
-        - file: resources/downgrade.md
-        - file: resources/glossary.md
     - file: gallery.md
 site:
   options:
