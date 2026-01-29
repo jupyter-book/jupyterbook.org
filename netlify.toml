@@ -1,5 +1,5 @@
 [build]
-  command = "cd docs && npm install && npx myst build"
+  command = "cd docs && npm install && npx myst build --html --execute"
   publish = "docs/_build/html"
 
 [[redirects]]
