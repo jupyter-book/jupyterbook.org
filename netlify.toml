@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "https://jupyter-book-blog.netlify.app/:splat"
+  to = "https://jupyter-book-blog.netlify.app/blog/:splat"
   status = 200
   force = true
