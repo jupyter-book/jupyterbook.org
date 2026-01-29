@@ -3,6 +3,7 @@ site:
   template: book-theme
   nav:
     - title: Docs
+      # Served from jupyter-book.readthedocs.io
       url: /docs
     - title: Community
       url: /community
@@ -10,6 +11,7 @@ site:
       url: /community/ecosystem
     - title: Contribute
       url: /contribute
+    # Served from jupyter-book-blog.netlify.app
     - title: Blog
       url: /blog
     - title: Help
