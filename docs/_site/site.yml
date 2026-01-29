@@ -11,7 +11,7 @@ site:
     - title: Contribute
       url: /contribute
     - title: Blog
-      url: https://blog.jupyterbook.org
+      url: /blog
     - title: Help
       children:
       - title: Ask a question ❓
