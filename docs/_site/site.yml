@@ -13,11 +13,7 @@ site:
     - title: Blog
       url: /blog
     - title: Help
-      children:
-      - title: Ask a question ❓
-        url: https://discord.mystmd.org
-      - title: Report a bug 🐛
-        url: https://github.com/jupyter-book/jupyter-book/issues
+      url: /help
   options:
     logo_url: /
     favicon: https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/main/docs/media/images/favicon.ico

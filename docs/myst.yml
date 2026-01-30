@@ -3,7 +3,7 @@ version: 1
 extends:
   - ./_site/site.yml
 project:
-  # title:
+  title: Community Guide
   # description:
   # keywords: []
   # authors: []
@@ -39,9 +39,12 @@ project:
       title: ❗ Development priorities
     - file: gallery.md
       title: 🖼️ Gallery of Jupyter Books
+    - file: events.md
+      title: 🗓️ Events Calendar
     - title: 📝 Contributing guide
       file: contribute.md
       children:
+        - file: contribute/help.md
         - file: contribute/docs.md
         - file: contribute/code.md
     - title: 🚀 Releases

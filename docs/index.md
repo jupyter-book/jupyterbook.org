@@ -139,10 +139,10 @@ Includes an FAQ about known limitations and gotchas
 :::
 
 :::{card} Get Help
-:link: ./community/help.md
+:link: ./help.md
 Questions or issues?
 +++
-Visit our [FAQ](/docs/resources/faq) for common questions, or reach out via [Discord](https://discord.mystmd.org), [Discussions](https://github.com/orgs/jupyter-book/discussions), or [Vote on features](./community/vote.md)
+Visit our [FAQ](/docs/resources/faq) for common questions, or reach out via [Discord](https://discord.mystmd.org), [Discussions](https://github.com/orgs/jupyter-book/discussions), or [Vote on features](./vote.md)
 :::
 
 :::{card} Cite Jupyter Book
