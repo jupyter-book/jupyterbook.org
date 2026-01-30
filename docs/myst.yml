@@ -30,17 +30,17 @@ project:
   toc:
     - file: index.md
     - file: help.md
-      title: 🙋 Get help
-    - file: community.md
-      title: 🌍 Join the community
-    - file: vote.md
-      title: 🙌 Vote on features
-    - file: roadmap.md
-      title: ❗ Development priorities
+      title: 🙋 Get Help
     - file: gallery.md
       title: 🖼️ Gallery of Jupyter Books
+    - file: community.md
+      title: 🌍 Community Guide
     - file: events.md
       title: 🗓️ Events Calendar
+    - file: vote.md
+      title: 🙌 Vote on Features
+    - file: roadmap.md
+      title: ❗ Development priorities
     - title: 📝 Contributing guide
       file: contribute.md
       children:

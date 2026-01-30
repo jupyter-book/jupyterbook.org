@@ -37,3 +37,16 @@
   to = "https://compass.jupyterbook.org/:splat"
   status = 200
   force = true
+
+# Redirects from old docs hosted at / to the new one hosted at /docs/ 
+[[redirects]]
+  from = "/stable/*"
+  to = "/docs/stable/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/latest/*"
+  to = "/docs/latest/:splat"
+  status = 301
+  force = false

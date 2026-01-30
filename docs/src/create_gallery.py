@@ -3,7 +3,7 @@ import yaml
 import html
 import random
 
-SRC = Path("gallery.yml")
+SRC = Path("src/gallery.yml")
 DST = Path("_build/temp/gallery.txt")
 
 def esc(t: str) -> str:
@@ -15,7 +15,7 @@ random.shuffle(items)
 
 lines = []
 
-lines.append("::::{grid} 1 1 1 1")
+lines.append("::::{grid} 2 2 2 2")
 
 for it in items:
     name = esc(it.get("name", ""))
@@ -30,7 +30,7 @@ for it in items:
     lines.append(f"````{{card}}")
     
     lines.append(f":link: {website}")
-    lines.append(f":header: [{name}]({repo})")
+    lines.append(f":header: {name}")
     lines.append(f"")
 
     # Include the figure with description

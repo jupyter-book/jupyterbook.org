@@ -27,6 +27,14 @@ def docs_live(session):
 
 
 @nox.session
+def gallery(session):
+    """Generate the gallery from gallery.yml."""
+    session.install("pyyaml")
+    session.chdir("docs")
+    session.run("python", "src/create_gallery.py")
+
+
+@nox.session
 def clean(session):
     """Clean the documentation build artifacts."""
     session.chdir("docs")
