@@ -16,13 +16,13 @@
 
 [[redirects]]
   from = "/docs"
-  to = "https://jupyterbook.org/move-content-to-org/"
+  to = "https://jupyterbook.org/docs-move-content-to-org/"
   status = 200
   force = true
 
 [[redirects]]
   from = "/docs/*"
-  to = "https://jupyterbook.org/move-content-to-org/:splat"
+  to = "https://jupyterbook.org/docs-move-content-to-org/:splat"
   status = 200
   force = true
 
