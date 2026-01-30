@@ -2,13 +2,11 @@ version: 1
 site:
   template: book-theme
   nav:
-    - title: Docs
+    - title: User Docs
       # Served from jupyter-book.readthedocs.io
       url: /docs
     - title: Community
       url: /community
-    - title: Ecosystem
-      url: /community/ecosystem
     - title: Contribute
       url: /contribute
     # Served from jupyter-book-blog.netlify.app

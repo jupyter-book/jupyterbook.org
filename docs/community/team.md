@@ -1,4 +1,4 @@
-# Our team
+# Core team
 
 This page describes the core team and steering council of Jupyter Book.
 These are [embedded](xref:guide#docs-embed) from [our team compass](xref:compass/team).

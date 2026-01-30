@@ -25,25 +25,26 @@ project:
     # The release notes plugin is for displaying release notes from GitHub
     - https://github.com/jupyter-book/myst-release-notes/releases/download/v0.1.1/index.mjs
     # Converts @username mentions to GitHub profile links
-    - https://github.com/jupyter-book/myst-plugins/releases/download/github-handle-links@2025-12-01/index.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/github-handle-links%402026-01-30/index.mjs
   github: https://github.com/jupyter-book/jupyterbook.org
   toc:
     - file: index.md
-    - title: Community
-      file: community.md
-      children:
-        - file: community/help.md
-        - file: community/vote.md
-        - file: community/roadmap.md
-        - file: community/team.md
-        - file: community/ecosystem.md
-        - file: community/history.md
-    - title: Contributing
+    - file: help.md
+      title: 🙋 Get help
+    - file: community.md
+      title: 🌍 Join the community
+    - file: vote.md
+      title: 🙌 Vote on features
+    - file: roadmap.md
+      title: ❗ Development priorities
+    - file: gallery.md
+      title: 🖼️ Gallery of Jupyter Books
+    - title: 📝 Contributing guide
       file: contribute.md
       children:
         - file: contribute/docs.md
         - file: contribute/code.md
-    - title: Releases
+    - title: 🚀 Releases
       file: releases.md
       children:
         - file: releases/jupyter-book.md
@@ -51,10 +52,13 @@ project:
         - file: releases/myst-theme.md
         - file: releases/jupyterlab-myst.md
         - file: releases/thebe.md
-    - title: Resources
+    - file: cite.md
+      title: 📚 Cite Jupyter Book
+    - title: 👥 About Jupyter Book
       children:
-        - file: cite.md
-    - file: gallery.md
+        - file: community/team.md
+        - file: community/ecosystem.md
+        - file: community/history.md
 site:
   options:
     style: media/custom.css

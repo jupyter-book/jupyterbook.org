@@ -14,29 +14,29 @@ Bug reports and requests should take place on the [`mystmd/` repository](https:/
 :::
 
 ::::{grid} 1 1 2 2
-:::{card} Discord
+:::{card} Ask a question »
 :link: https://discord.mystmd.org/
-:footer: Start a conversation »
+:footer: Discord
 
-![](../media/images/discord-mark-black.svg)
+![](./media/images/discord-mark-black.svg)
 
 Need some help using Jupyter Book (MyST)? Unsure whether something is a bug or a feature? Discord is where MyST users and developers gather!
 :::
 
-:::{card} GitHub Issues
+:::{card} Request a bugfix or feature »
 :link: https://github.com/jupyter-book/mystmd/issues/new/choose
-:footer: Report a bug »
+:footer: GitHub Issues
 
-![](../media/images/github-mark.svg)
+![](./media/images/github-mark.svg)
 
 Found a bug? Have an idea for a new feature? Visit the MyST GitHub repository and create an issue.
 :::
 
-:::{card} Vote on Features
+:::{card} Vote on Features  »
 :link: ./vote.md
-:footer: See what's trending »
+:footer: Feature Voting Board
 
-![](../media/images/github-mark.svg)
+![](./media/images/github-mark.svg)
 
 Want to see what issues the community cares about most? Browse the feature voting table to see what's getting attention and add your vote!
 :::

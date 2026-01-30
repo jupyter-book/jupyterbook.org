@@ -1,6 +1,6 @@
 ---
 title: Contributing to Jupyter Book
-short_title: Contributing
+short_title: Contributing guide
 ---
 
 Thank you for your interest in contributing to Jupyter Book!
