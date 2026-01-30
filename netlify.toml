@@ -16,13 +16,13 @@
 
 [[redirects]]
   from = "/docs"
-  to = "https://jupyterbook.org/"
+  to = "https://jupyterbook.org/stable"
   status = 200
   force = true
 
 [[redirects]]
   from = "/docs/*"
-  to = "https://jupyterbook.org/:splat"
+  to = "https://jupyterbook.org/stable/:splat"
   status = 200
   force = true
 
