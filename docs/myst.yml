@@ -22,6 +22,10 @@ project:
     - src/admonition.mjs
     # The issue tables plugin is what we use for the roadmap and feature voting pages
     - https://github.com/jupyter-book/myst-plugins/releases/download/github-issue-table@2025-12-07/index.mjs
+    # The release notes plugin is for displaying release notes from GitHub
+    - https://github.com/jupyter-book/myst-release-notes/releases/download/v0.1.1/index.mjs
+    # Converts @username mentions to GitHub profile links
+    - https://github.com/jupyter-book/myst-plugins/releases/download/github-handle-links@2025-12-01/index.mjs
   github: https://github.com/jupyter-book/jupyterbook.org
   toc:
     - file: index.md
@@ -39,6 +43,14 @@ project:
       children:
         - file: contribute/docs.md
         - file: contribute/code.md
+    - title: Releases
+      file: releases.md
+      children:
+        - file: releases/jupyter-book.md
+        - file: releases/mystmd.md
+        - file: releases/myst-theme.md
+        - file: releases/jupyterlab-myst.md
+        - file: releases/thebe.md
     - title: Resources
       children:
         - file: cite.md
