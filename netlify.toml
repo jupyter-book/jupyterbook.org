@@ -2,6 +2,7 @@
   command = "cd docs && npm install && npx myst build --html --execute"
   publish = "docs/_build/html"
 
+# jupyterbook.org/docs - Blog
 [[redirects]]
   from = "/blog"
   to = "https://jupyter-book-blog.netlify.app/blog/"
@@ -14,24 +15,78 @@
   status = 200
   force = true
 
+# User documentation - paths match RTD exactly so internal links just work
+# /docs redirects to /stable (the default version)
 [[redirects]]
   from = "/docs"
-  to = "/docs/docs-move-content-to-org/"
+  to = "/stable/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/docs/"
-  to = "/docs/docs-move-content-to-org/"
+  to = "/stable/"
+  status = 301
+  force = true
+
+# /stable → RTD /stable
+[[redirects]]
+  from = "/stable"
+  to = "/stable/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/*"
-  to = "https://jupyterbook.org/:splat/"
+  from = "/stable/"
+  to = "https://jupyterbook.org/stable/"
   status = 200
   force = true
 
+[[redirects]]
+  from = "/stable/*"
+  to = "https://jupyterbook.org/stable/:splat/"
+  status = 200
+  force = true
+
+# /latest → RTD /latest
+[[redirects]]
+  from = "/latest"
+  to = "/latest/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/latest/"
+  to = "https://jupyterbook.org/latest/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/latest/*"
+  to = "https://jupyterbook.org/latest/:splat/"
+  status = 200
+  force = true
+
+# /v1 → RTD /v1
+[[redirects]]
+  from = "/v1"
+  to = "/v1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/v1/"
+  to = "https://jupyterbook.org/v1/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/v1/*"
+  to = "https://jupyterbook.org/v1/:splat/"
+  status = 200
+  force = true
+
+# jupyterbook.org/compass - Team Compass
 [[redirects]]
   from = "/compass"
   to = "https://compass.jupyterbook.org/"
@@ -43,16 +98,3 @@
   to = "https://compass.jupyterbook.org/:splat"
   status = 200
   force = true
-
-# Redirects from old docs hosted at / to the new one hosted at /docs/ 
-[[redirects]]
-  from = "/stable/*"
-  to = "/docs/stable/:splat"
-  status = 301
-  force = false
-
-[[redirects]]
-  from = "/latest/*"
-  to = "/docs/latest/:splat"
-  status = 301
-  force = false
