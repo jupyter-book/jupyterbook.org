@@ -16,6 +16,18 @@
 
 [[redirects]]
   from = "/docs"
+  to = "/docs-move-content-to-org/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/"
+  to = "/docs-move-content-to-org/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs"
   to = "https://jupyterbook.org/docs-move-content-to-org/"
   status = 200
   force = true
