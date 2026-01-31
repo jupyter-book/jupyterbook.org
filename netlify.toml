@@ -2,7 +2,9 @@
   command = "cd docs && npm install && npx myst build --html --execute"
   publish = "docs/_build/html"
 
-# jupyterbook.org/docs - Blog
+# ----------------------------------------------------------------------------
+# BLOG
+# ----------------------------------------------------------------------------
 [[redirects]]
   from = "/blog"
   to = "https://jupyter-book-blog.netlify.app/blog/"
@@ -15,8 +17,9 @@
   status = 200
   force = true
 
-
-# jupyterbook.org/compass - Team Compass
+# ----------------------------------------------------------------------------
+# TEAM COMPASS
+# ----------------------------------------------------------------------------
 [[redirects]]
   from = "/compass"
   to = "https://compass.jupyterbook.org/"
@@ -30,27 +33,27 @@
   force = true
 
 # ----------------------------------------------------------------------------
-# NETLIFY REDIRECTS FOR READ THE DOCS PROXY
+# USER DOCUMENTATION (READ THE DOCS)
 # ----------------------------------------------------------------------------
 
 # Force any /stable/ links back to /docs/ folder.
 [[redirects]]
   from = "/stable/*"
-  to = "/docs/:splat"
+  to = "/docs-move-content-to-org/:splat"
   status = 301
   force = true
 
 # 2. NAKED PATH REDIRECT: Ensure /docs and /docs/ both work.
 # This forces a trailing slash which helps relative asset paths work correctly.
 [[redirects]]
-  from = "/docs"
-  to = "/docs/"
+  from = "/docs-move-content-to-org"
+  to = "/docs-move-content-to-org/"
   status = 301
   force = true
 
 # 3. MAIN DOCS PROXY: Map /docs/ to the RTD stable build.
 [[redirects]]
-  from = "/docs/*"
+  from = "/docs-move-content-to-org/*"
   to = "https://jupyterbook.org/docs-move-content-to-org/:splat"
   status = 200
   force = true

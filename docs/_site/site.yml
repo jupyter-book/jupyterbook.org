@@ -4,7 +4,7 @@ site:
   nav:
     - title: User Docs
       # Served from jupyter-book.readthedocs.io
-      url: /docs
+      url: /docs-move-content-to-org
     - title: Community
       url: /community
     - title: Contribute
