@@ -5,6 +5,9 @@ site:
     - title: User Docs
       # Served from jupyter-book.readthedocs.io
       url: /docs-move-content-to-org
+    - title: User Docs Test
+      # Served from jupyter-book.readthedocs.io
+      url: /docs
     - title: Community
       url: /community
     - title: Contribute
