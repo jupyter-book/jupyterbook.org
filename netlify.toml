@@ -28,7 +28,7 @@
 
 [[redirects]]
   from = "/docs/*"
-  to = "https://jupyterbook.org/:splat"
+  to = "https://jupyterbook.org/:splat/"
   status = 200
   force = true
 
