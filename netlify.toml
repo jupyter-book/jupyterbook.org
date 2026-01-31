@@ -15,76 +15,6 @@
   status = 200
   force = true
 
-# User documentation - paths match RTD exactly so internal links just work
-# /docs redirects to /stable (the default version)
-[[redirects]]
-  from = "/docs"
-  to = "/stable/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/docs/"
-  to = "/stable/"
-  status = 301
-  force = true
-
-# /stable → RTD /stable
-[[redirects]]
-  from = "/stable"
-  to = "/stable/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/stable/"
-  to = "https://jupyterbook.org/stable/"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/stable/*"
-  to = "https://jupyterbook.org/stable/:splat/"
-  status = 200
-  force = true
-
-# /latest → RTD /latest
-[[redirects]]
-  from = "/latest"
-  to = "/latest/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/latest/"
-  to = "https://jupyterbook.org/latest/"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/latest/*"
-  to = "https://jupyterbook.org/latest/:splat/"
-  status = 200
-  force = true
-
-# /v1 → RTD /v1
-[[redirects]]
-  from = "/v1"
-  to = "/v1/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/v1/"
-  to = "https://jupyterbook.org/v1/"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/v1/*"
-  to = "https://jupyterbook.org/v1/:splat/"
-  status = 200
-  force = true
 
 # jupyterbook.org/compass - Team Compass
 [[redirects]]
@@ -96,5 +26,38 @@
 [[redirects]]
   from = "/compass/*"
   to = "https://compass.jupyterbook.org/:splat"
+  status = 200
+  force = true
+
+# ----------------------------------------------------------------------------
+# NETLIFY REDIRECTS FOR READ THE DOCS PROXY
+# ----------------------------------------------------------------------------
+
+# Force any /stable/ links back to /docs/ folder.
+[[redirects]]
+  from = "/stable/*"
+  to = "/docs/:splat"
+  status = 301
+  force = true
+
+# 2. NAKED PATH REDIRECT: Ensure /docs and /docs/ both work.
+# This forces a trailing slash which helps relative asset paths work correctly.
+[[redirects]]
+  from = "/docs"
+  to = "/docs/"
+  status = 301
+  force = true
+
+# 3. MAIN DOCS PROXY: Map /docs/ to the RTD stable build.
+[[redirects]]
+  from = "/docs/*"
+  to = "https://jupyterbook.org/docs-move-content-to-org/:splat"
+  status = 200
+  force = true
+
+# 4. LATEST PROXY: Map /latest/ to the RTD latest build.
+[[redirects]]
+  from = "/latest/*"
+  to = "https://jupyterbook.org/latest/:splat"
   status = 200
   force = true
