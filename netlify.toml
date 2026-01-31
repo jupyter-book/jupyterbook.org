@@ -39,7 +39,13 @@
 # Force any /stable/ links back to /docs/ folder.
 [[redirects]]
   from = "/stable/*"
-  to = "/docs-move-content-to-org/:splat"
+  to = "/docs/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs-move-content-to-org/*"
+  to = "/docs/:splat"
   status = 301
   force = true
 
