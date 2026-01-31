@@ -43,13 +43,6 @@
   status = 301
   force = true
 
-# Ensure /docs and /docs/ both work.
-[[redirects]]
-  from = "/docs-move-content-to-org"
-  to = "/docs-move-content-to-org/"
-  status = 301
-  force = true
-
 # Map /docs/ to the RTD stable build.
 [[redirects]]
   from = "/docs/*"
