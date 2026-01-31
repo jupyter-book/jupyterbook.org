@@ -43,22 +43,27 @@
   status = 301
   force = true
 
-# 2. NAKED PATH REDIRECT: Ensure /docs and /docs/ both work.
-# This forces a trailing slash which helps relative asset paths work correctly.
+# Ensure /docs and /docs/ both work.
 [[redirects]]
   from = "/docs-move-content-to-org"
   to = "/docs-move-content-to-org/"
   status = 301
   force = true
 
-# 3. MAIN DOCS PROXY: Map /docs/ to the RTD stable build.
+# Map /docs/ to the RTD stable build.
+[[redirects]]
+  from = "/docs/*"
+  to = "https://jupyterbook.org/docs-move-content-to-org/:splat"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "/docs-move-content-to-org/*"
   to = "https://jupyterbook.org/docs-move-content-to-org/:splat"
   status = 200
   force = true
 
-# 4. LATEST PROXY: Map /latest/ to the RTD latest build.
+# Map /latest/ to the RTD latest build.
 [[redirects]]
   from = "/latest/*"
   to = "https://jupyterbook.org/latest/:splat"
