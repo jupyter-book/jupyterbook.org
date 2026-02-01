@@ -17,6 +17,6 @@ site:
       url: https://jupyterbook.org/help
   options:
     logo_url: /
-    favicon: https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/main/docs/media/images/favicon.ico
-    logo: https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/main/docs/media/images/logo.svg
-    logo_dark: https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/main/docs/media/images/logo-dark.svg
+    favicon: https://raw.githubusercontent.com/jupyter-book/jupyterbook.org/refs/heads/main/docs/media/images/favicon.ico
+    logo: https://raw.githubusercontent.com/jupyter-book/jupyterbook.org/refs/heads/main/docs/media/images/logo.svg
+    logo_dark: https://raw.githubusercontent.com/jupyter-book/jupyterbook.org/refs/heads/main/docs/media/images/logo-dark.svg

@@ -1,0 +1,14 @@
+# This just pings our Netlify Deploy Hook on a schedule.
+# This ensures that jupyterbook.org is roughly up to date with new data etc.
+name: Daily Netlify Deploy
+on:
+  schedule:
+    - cron: '0 15 * * *' 
+  workflow_dispatch:
+
+jobs:
+  trigger-netlify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send POST request to Netlify
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_DEPLOY_HOOK }}
