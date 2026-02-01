@@ -36,14 +36,12 @@
 # USER DOCUMENTATION (READ THE DOCS)
 # ----------------------------------------------------------------------------
 
-# Map /docs/ to the RTD stable build.
 [[redirects]]
   from = "/stable/*"
   to = "https://jupyterbook.org/stable/:splat"
   status = 200
   force = true
 
-# Map /latest/ to the RTD latest build.
 [[redirects]]
   from = "/latest/*"
   to = "https://jupyterbook.org/latest/:splat"

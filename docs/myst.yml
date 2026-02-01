@@ -9,7 +9,8 @@ project:
   # authors: []
   references:
     guide: https://mystmd.org/guide
-    compass: https://compass.jupyterbook.org
+    compass: https://jupyterbook.org/compass
+    blog: https://jupyterbook.org/blog
     issues: https://jupyter.org/github-data
   abbreviations:
     MyST: Markedly Structured Text

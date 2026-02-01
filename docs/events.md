@@ -23,7 +23,7 @@ Collaboration cafes are a way for any member of the Jupyter Book community to re
 See [the Jupyter Book Collaboration Cafe notes](https://hackmd.io/@jupyter-book/collaboration-cafe) for more details and meeting notes. 
 
 :::{seealso} Facilitator checklist
-See [](./meetings/facilitator-checklist.md) for instructions on how to facilitate this meeting. We encourage anyone who is willing to serve in this role.
+See [](xref:compass/meetings/facilitator-checklist.md) for instructions on how to facilitate this meeting. We encourage anyone who is willing to serve in this role.
 :::
 
 :::{note} This is an experiment!
