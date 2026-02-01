@@ -15,7 +15,7 @@ The most valuable contribution? **Answer questions on [Discord](https://discord.
 
 ::::{grid} 3
 :::{card} The Jupyter Book Team Compass 🧭
-:link: https://compass.jupyterbook.org
+:link: xref:compass
 A guide to the Jupyter Book community and a place to learn team practices.
 +++
 Click to visit the Team Compass →

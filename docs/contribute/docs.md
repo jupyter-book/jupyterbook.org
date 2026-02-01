@@ -14,7 +14,7 @@ Here are major sections and where to find them:
   * **Content:** The file `docs/index.md` becomes the `jupyterbook.org/` landing page. It should demonstrate the core value proposition of the Jupyter Book tool, and give all the information needed to orient a new user and know where to look for more information. It should be easy to read, simple, and visually attractive.
 * **User Docs (`/stable`, `/latest`)**
   * **Audience:** Users of Jupyter Book.
-  * **Content:** These are hosted in [the `docs` folder of jupyter-book](https://github.com/jupyter-book/jupyter-book/tree/main/docs) and served via ReadTheDocs. `/stable` is the latest release, `/latest` is the `main` branch. See [Site Architecture](#site-architecture) for details.
+  * **Content:** These are hosted in [the `docs` folder of jupyter-book](https://github.com/jupyter-book/jupyter-book/tree/main/docs) and served via ReadTheDocs. `/stable` is the latest release, `/latest` is the `main` branch.
 * **Topic-Area Landing Pages (e.g., `/stable/authoring`, `/stable/build`)**
   * **Audience:** Users who want an overview of what a section covers.
   * **Content:** Each topic area should have a landing page that provides the same function as the main landing page, but focused on that topic. The landing page should be simple, visually attractive, and guide users to content organized by Diataxis categories (Tutorials, How-To, Reference, Discussion). These pages live in the [jupyter-book docs](https://github.com/jupyter-book/jupyter-book/tree/main/docs).
@@ -26,10 +26,10 @@ Here are major sections and where to find them:
   * **Content:** Team compass, organizational structure, and project history.
 * **Blog (`/blog`)**
   * **Audience:** Anyone who is interested in keeping up with what Jupyter Book's community has been doing.
-  * **Content:** Blog posts from team members and contributors. Hosted in a [separate repository](https://github.com/jupyter-book/blog) and proxied here. See [Site Architecture](#site-architecture).
+  * **Content:** Blog posts from team members and contributors. Hosted in a [separate repository](https://github.com/jupyter-book/blog) and proxied here.
 * **Team Compass (`/compass`)**
   * **Audience:** The Jupyter Book core team and contributors.
-  * **Content:** Team-wide practices, policy, and high-level information. Hosted at [compass.jupyterbook.org](https://compass.jupyterbook.org) and proxied here. See [Site Architecture](#site-architecture).
+  * **Content:** Team-wide practices, policy, and high-level information. Hosted at [](xref:compass) and proxied here.
 
 :::{note} Don't use `[folder]/index.md` - Use `[folder].md` instead
 Instead of creating `authoring/index.md`, create `authoring.md` at the top level. This file becomes the `/authoring` URL and serves as the landing page for that topic area. MyST doesn't currently support `folder/index.md` resulting in a `/folder` URL—it creates `/folder/index` instead. See [this issue](https://github.com/jupyter-book/mystmd/issues/2372) for details.

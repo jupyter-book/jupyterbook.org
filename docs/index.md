@@ -37,7 +37,7 @@ pip install jupyter-book
 jupyter book start
 ```
 
-{button}`Get started → <xref:docs/get-started>` {button}`Upgrade from JB1 → <xref:docs/resources/upgrade>`
+{button}`Get started → <xref:docs/>` {button}`Upgrade from JB1 → <xref:docs/resources/upgrade>`
 ::::::
 
 +++

@@ -18,7 +18,7 @@ For general conversation about the MyST Markdown engine.
 Click to visit the GitHub Discussions forum →
 :::
 :::{card} Events calendar 🗓️
-:link: https://compass.jupyterbook.org/contribute#events
+:link: xref:compass/contribute#events
 Connect with others in the Jupyter Book community in real-time.
 +++
 Click to see our events calendar →

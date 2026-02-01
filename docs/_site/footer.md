@@ -35,7 +35,7 @@ Technical projects
 :::{div}
 About the project
 
-- [Team compass](https://compass.jupyterbook.org)
+- [Team compass](xref:compass)
 - [MyST contributing guide](https://mystmd.org/guide/contributing)
 - [Project Jupyter](https://jupyter.org)
 

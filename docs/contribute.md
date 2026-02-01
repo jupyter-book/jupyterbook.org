@@ -38,7 +38,7 @@ Help grow and support the Jupyter Book community:
 
 - **GitHub Organization**: [github.com/jupyter-book](https://github.com/jupyter-book)
 - **Main Repository**: [github.com/jupyter-book/jupyter-book](https://github.com/jupyter-book/jupyter-book)
-- **Team Compass**: [compass.jupyterbook.org](https://compass.jupyterbook.org)
+- **Team Compass**: [](xref:compass)
 - **MyST Markdown**: [mystmd.org](https://mystmd.org)
 
 
