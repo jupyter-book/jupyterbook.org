@@ -1,3 +1,6 @@
+# Shared configuration for all repositories that feed into jupyterbook.org .
+# Because proxied sites are built with different base URLs, **all navigation links use fully-qualified URLs** (e.g., `https://jupyterbook.org/stable`) rather than relative paths.
+# This ensures navigation works correctly regardless of which sub-site the user is viewing.
 version: 1
 site:
   template: book-theme
