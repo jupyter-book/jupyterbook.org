@@ -36,29 +36,10 @@
 # USER DOCUMENTATION (READ THE DOCS)
 # ----------------------------------------------------------------------------
 
-# Force any /stable/ links back to /docs/ folder.
-[[redirects]]
-  from = "/stable/*"
-  to = "/docs/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/docs-move-content-to-org/*"
-  to = "/docs/:splat"
-  status = 301
-  force = true
-
 # Map /docs/ to the RTD stable build.
 [[redirects]]
-  from = "/docs/*"
-  to = "https://jupyterbook.org/docs-move-content-to-org/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/docs-move-content-to-org/*"
-  to = "https://jupyterbook.org/docs-move-content-to-org/:splat"
+  from = "/stable/*"
+  to = "https://jupyterbook.org/stable/:splat"
   status = 200
   force = true
 
