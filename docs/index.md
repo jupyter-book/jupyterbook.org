@@ -13,7 +13,7 @@ Built on the [MyST Document Engine](https://mystmd.org) with faster builds, mode
 Jupyter Book 2 still has many improvements to be made.
 Please join us and [contribute to Jupyter Book](./contribute.md) so we can make it better!
 
-[Upgrade from 1.0](/docs/resources/upgrade#upgrade-tldr) • [Known limitations](/docs/resources/faq#known-limitations) • [Frequently Asked Questions](/docs/resources/faq#faq-general) • [Looking for 1.0 documentation?](https://jupyterbook.org/v1)
+[Upgrade from 1.0](xref:docs#upgrade-tldr) • [Known limitations](xref:docs#known-limitations) • [Frequently Asked Questions](xref:docs#faq-general) • [Looking for 1.0 documentation?](https://jupyterbook.org/v1)
 :::
 
 +++ {"class": "col-page-inset"}
@@ -37,13 +37,13 @@ pip install jupyter-book
 jupyter book start
 ```
 
-{button}`Get started → </docs/get-started>` {button}`Upgrade from JB1 → </docs/resources/upgrade>`
+{button}`Get started → <xref:docs/get-started>` {button}`Upgrade from JB1 → <xref:docs/resources/upgrade>`
 ::::::
 
 +++
 
 ```{warning}
-With the recent release of Jupyer Book 2, you will explicitly need to add `jupyter-book<2` to your install to keep using the Sphinx-based [Jupyter Book 1](https://jupyterbook.org/v1).
+With the recent release of Jupyter Book 2, you will explicitly need to add `jupyter-book<2` to your install to keep using the Sphinx-based [Jupyter Book 1](https://jupyterbook.org/v1).
 ```
 
 ## See It in Action
@@ -88,28 +88,28 @@ With the recent release of Jupyer Book 2, you will explicitly need to add `jupyt
 
 :::::{grid} 1 2 3 3
 ::::{card} 📘 Get Started
-:link: /docs/get-started
+:link: xref:docs/get-started
 Build your first book in minutes
 +++
-[Quick start →](/docs/get-started)
+[Quick start →](xref:docs/get-started)
 ::::
 ::::{card} 📝 Author Content
-:link: /docs/authoring
+:link: xref:docs/authoring
 Write with MyST Markdown
 +++
-[Learn authoring →](/docs/authoring)
+[Learn authoring →](xref:docs/authoring)
 ::::
 ::::{card} 🚀 Build & Publish
-:link: /docs/build-and-publish
+:link: xref:docs/build-and-publish
 Deploy to the web
 +++
-[Publish guide →](/docs/build-and-publish)
+[Publish guide →](xref:docs/build-and-publish)
 ::::
 ::::{card} ⚙️ Extend with Plugins
-:link: /docs/plugins
+:link: xref:docs/plugins
 Customize your workflow
 +++
-[Explore plugins →](/docs/plugins)
+[Explore plugins →](xref:docs/plugins)
 ::::
 ::::{card} 💬 Community
 :link: ./community.md
@@ -132,7 +132,7 @@ Explore existing books and projects
 
 ::::{grid} 1 1 2 2
 :::{card} Upgrade guide
-:link: /docs/resources/upgrade
+:link: xref:docs/resources/upgrade
 Upgrade from Jupyter Book 1 to 2
 +++
 Includes an FAQ about known limitations and gotchas
@@ -142,7 +142,7 @@ Includes an FAQ about known limitations and gotchas
 :link: ./help.md
 Questions or issues?
 +++
-Visit our [FAQ](/docs/resources/faq) for common questions, or reach out via [Discord](https://discord.mystmd.org), [Discussions](https://github.com/orgs/jupyter-book/discussions), or [Vote on features](./vote.md)
+Visit our [FAQ](xref:docs/resources/faq) for common questions, or reach out via [Discord](https://discord.mystmd.org), [Discussions](https://github.com/orgs/jupyter-book/discussions), or [Vote on features](./vote.md)
 :::
 
 :::{card} Cite Jupyter Book

@@ -10,6 +10,7 @@ project:
   references:
     guide: https://mystmd.org/guide
     compass: https://jupyterbook.org/compass
+    docs: https://jupyterbook.org/stable/
     blog: https://jupyterbook.org/blog
     issues: https://jupyter.org/github-data
   abbreviations:
