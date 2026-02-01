@@ -1,3 +1,6 @@
+# GITHUB TOKENS: We use an environment variable set in Netlify settings
+# to access the GitHub API. It is read-only and only used to fetch data.
+# If it expires, anybody can regenerate a new one and update the Netlify settings.
 [build]
   command = "bash netlify-build.sh"
   publish = "docs/_build/html"
