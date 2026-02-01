@@ -1,5 +1,5 @@
 [build]
-  command = "cd docs && npm install && npx myst build --html --execute"
+  command = "bash netlify-build.sh"
   publish = "docs/_build/html"
 
 # ----------------------------------------------------------------------------
