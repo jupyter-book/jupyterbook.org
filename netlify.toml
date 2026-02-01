@@ -22,13 +22,13 @@
 # ----------------------------------------------------------------------------
 [[redirects]]
   from = "/compass"
-  to = "https://compass.jupyterbook.org/"
+  to = "https://jupyter-book-team-compass.netlify.app/"
   status = 200
   force = true
 
 [[redirects]]
   from = "/compass/*"
-  to = "https://compass.jupyterbook.org/:splat"
+  to = "https://jupyter-book-team-compass.netlify.app/:splat"
   status = 200
   force = true
 
@@ -38,12 +38,12 @@
 
 [[redirects]]
   from = "/stable/*"
-  to = "https://jupyterbook.org/stable/:splat"
+  to = "https://jupyter-book.readthedocs.io/stable/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/latest/*"
-  to = "https://jupyterbook.org/latest/:splat"
+  to = "https://jupyter-book.readthedocs.io/latest/:splat"
   status = 200
   force = true
