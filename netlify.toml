@@ -22,13 +22,13 @@
 # ----------------------------------------------------------------------------
 [[redirects]]
   from = "/compass"
-  to = "https://jupyter-book-team-compass.netlify.app/"
+  to = "https://jupyter-book-team-compass.netlify.app/compass/"
   status = 200
   force = true
 
 [[redirects]]
   from = "/compass/*"
-  to = "https://jupyter-book-team-compass.netlify.app/:splat"
+  to = "https://jupyter-book-team-compass.netlify.app/compass/:splat"
   status = 200
   force = true
 
