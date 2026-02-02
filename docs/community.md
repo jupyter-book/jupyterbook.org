@@ -18,7 +18,7 @@ For general conversation about the MyST Markdown engine.
 Click to visit the GitHub Discussions forum →
 :::
 :::{card} Events calendar 🗓️
-:link: xref:compass/contribute#events
+:link: events
 Connect with others in the Jupyter Book community in real-time.
 +++
 Click to see our events calendar →
@@ -49,13 +49,13 @@ Click to visit the `mystmd` guide →
 ::::{grid} 2
 
 :::{card} Contributing guide
-:link: /contribute
+:link: contribute
 Resources for getting involved in our community.
 +++
 Click to visit the Contributing Guide →
 :::
 :::{card} How you can help
-:link: /contribute/help
+:link: contribute/help
 A few ideas for where we could use your help.
 +++
 Click to see the Giving Help Guide →

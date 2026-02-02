@@ -15,7 +15,7 @@ Here it is:
 
 The meeting schedule for Jupyter Book Collaboration Cafes
 ::::
-
+(hi)=
 ### Monthly collaboration cafes
 
 Collaboration cafes are a way for any member of the Jupyter Book community to remotely get together to share what they've been up to, have discussions, and work together. You are welcome to join as long as you're interested in Jupyter Book!
