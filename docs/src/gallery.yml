@@ -102,3 +102,11 @@
   image: https://github.com/fenics-dolfiny/dolfiny/blob/main/book/logo.svg
   description: Computational mechanics demos of dolfiny, an extension module of the finite element library FEniCSx, rendered as jupyter book.
   tags: Computational Mechanics; FEniCS; Documentation; University of Luxembourg
+
+- - title: Programando la Historia
+  authors: Claudio Rojas Monsalves
+  url: https://claudiorojasmon.github.io/apuntes_2025/
+  description: >
+    Libro de Tecnología para II° Medio con contenidos sobre Inteligencia Artificial, 
+    programación básica y Python, usando ejemplos de Historia de Chile e Historia Universal.
+  image: https://claudiorojasmon.github.io/apuntes_2025/_static/Original.png
