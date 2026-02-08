@@ -5,34 +5,20 @@ short_title: Contributing guide
 
 Thank you for your interest in contributing to Jupyter Book!
 
-Jupyter Book is both a **software tool** and a **community project**. You can contribute in many ways.
+Jupyter Book is part of the wider MyST ecosystem. Use this page to find the right place to contribute.
 
-## Ways to Contribute to the Project
+## Start here
 
-### Code Contributions
+- [Code contributions](./contribute/code.md): where code changes go and how to get started
+- [Documentation strategy](./contribute/docs.md): which repo should host your docs change
+- [Community help](./contribute/help.md): ways to support others
+- [Team priorities](https://github.com/orgs/jupyter-book/projects/1): issues the team is most interested in
 
-Help build and improve the Jupyter Book software:
+## Shared project guidance
 
-- **Report bugs** via [GitHub Issues](https://github.com/jupyter-book/jupyter-book/issues)
-- **Improve the codebase** - See [Code Contribution Guide](./contribute/code.md) for repository-specific setup
-- **Team Priorities Board**: [Current priorities and roadmap](https://github.com/orgs/jupyter-book/projects/1) has a list of things we'd like someone to tackle
-
-### Documentation Contributions
-
-Help improve documentation across the project:
-
-- **Fix typos and clarify content** - Submit PRs to improve these docs
-- **Write tutorials and examples** - Share how you use Jupyter Book
-- **Improve this site** - See [Documentation Strategy](./contribute/docs.md) for where docs live and which repo to edit
-
-### Community Contributions
-
-Help grow and support the Jupyter Book community:
-
-- **Answer questions** in [Discussions](https://github.com/orgs/jupyter-book/discussions) and [Discord](https://discord.mystmd.org)
-- **Share your work** - Publish Jupyter Books and showcase them
-- **Teach others** - Write blog posts, give talks, create tutorials
-- **Help with upgrades** - Share tips in [upgrade discussions](https://github.com/orgs/jupyter-book/discussions/categories/upgrading-jupyterbook)
+- [MyST contribution guide](https://mystmd.org/guide/contributing)
+- [Code of conduct](https://compass.jupyterbook.org/code-of-conduct)
+- [Team compass and governance](https://compass.jupyterbook.org)
 
 ## Project Resources
 
