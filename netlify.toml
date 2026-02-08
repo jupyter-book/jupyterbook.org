@@ -52,6 +52,12 @@
   status = 200
   force = true
 
+[[redirects]]
+  from = "/v1/*"
+  to = "https://jupyter-book.readthedocs.io/v1/:splat"
+  status = 200
+  force = true
+
 # TEMPORARY REDIRECT to preserve old Sphinx links to Jupyter Book v1 that used /en/
 # ref: https://github.com/jupyter-book/jupyter-book/issues/2579
 # we can delete this after Sept 2026 or so.
