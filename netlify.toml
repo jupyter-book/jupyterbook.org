@@ -41,14 +41,32 @@
 # ----------------------------------------------------------------------------
 
 [[redirects]]
+  from = "/stable"
+  to = "https://jupyter-book.readthedocs.io/stable/"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/stable/*"
   to = "https://jupyter-book.readthedocs.io/stable/:splat"
   status = 200
   force = true
 
 [[redirects]]
+  from = "/latest"
+  to = "https://jupyter-book.readthedocs.io/latest/"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/latest/*"
   to = "https://jupyter-book.readthedocs.io/latest/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/v1"
+  to = "https://jupyter-book.readthedocs.io/v1/"
   status = 200
   force = true
 
