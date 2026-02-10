@@ -24,7 +24,7 @@ Jupyter Book is part of the wider MyST ecosystem. Use this page to find the righ
 
 - **GitHub Organization**: [github.com/jupyter-book](https://github.com/jupyter-book)
 - **Main Repository**: [github.com/jupyter-book/jupyter-book](https://github.com/jupyter-book/jupyter-book)
-- **Team Compass**: [](xref:compass)
+- **Team Compass**: [jupyterbook.org/compass](xref:compass)
 - **MyST Markdown**: [mystmd.org](https://mystmd.org)
 
 
