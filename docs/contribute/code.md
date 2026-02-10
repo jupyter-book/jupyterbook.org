@@ -1,38 +1,23 @@
-# Contributing Code to Jupyter Book
+# Code contributions
 
-This guide covers the technical setup and architecture for code contributors.
+Use this page to find the right repository and next step.
 
-**Most technical changes to Jupyter Book happen in one of these places**:
+## Choose a repository
 
-- [jupyter-book/mystmd](https://github.com/jupyter-book/mystmd) - the Document engine that powers Jupyter Book
-- [jupyter-book/myst-theme](https://github.com/jupyter-book/myst-theme) - the React theme infrastructure for the book theme
-- One of the extension and plugin repositories in the [jupyter-book organization](https://github.com/jupyter-book).
+- [jupyter-book/mystmd](https://github.com/jupyter-book/mystmd): MyST engine and core behavior.
+- [jupyter-book/myst-theme](https://github.com/jupyter-book/myst-theme): Theme and frontend rendering.
+- [jupyter-book/jupyter-book](https://github.com/jupyter-book/jupyter-book): Python packaging, CLI distribution, and Jupyter Book integration.
+- [jupyter-book/myst-plugins](https://github.com/jupyter-book/myst-plugins): Community-maintained plugins.
+- There are also many other repositories for plugins and other tools, but these are the major cross-project ones.
 
-## Application Design
+## Start contributing
 
-The Jupyter Book application is a Python package containing a [Node.js](https://nodejs.org/en) application.
-It's functionally equivalent to a configured version of the [mystmd engine](https://github.com/jupyter-book/mystmd).
+- Check [team priorities](https://github.com/orgs/jupyter-book/projects/1) and open issues in the target repository.
+- Pick a small issue and comment that you'd like to work on it.
+- Follow that repository's `CONTRIBUTING.md` for setup and workflow.
+- If unsure where to start, ask in [Discord](https://discord.mystmd.org) or [Discussions](https://github.com/orgs/jupyter-book/discussions).
 
-In the future, `mystmd` may become smaller and less-opinionated, and Jupyter Book will become a distribution of mystmd functionality.
+## Detailed guides
 
-
-### Code that Jupyter Book adds
-
-**A Python shim**. The Python package ensures users have Node.js to run the underlying application. For users without Node.js, it uses [`nodeenv`](https://github.com/ekalinin/nodeenv) to download a local copy.
-
-
-**CLI functionality for Jupyter Book 1 users**. Jupyter Book 2's CLI adds some extra functionality (like a way to upgrade from Jupyter Book 1), but is intentionally as lightweight as possible.
-
-
-## Building the Python Package
-
-Jupyter Book uses [`hatch`](https://hatch.pypa.io/) to build the Python package. Configuration is in `pyproject.toml`, using plugins:
-- `hatch-jupyter-builder` - builds the Node.js application
-- `hatch-deps-selector` - manages dependencies for conda-forge vs PyPI
-- `hatch-nodejs-version` - provides metadata from the JS package
-
-Build the application:
-
-```shell
-hatch build
-```
+- [MyST Developer Guide](https://mystmd.org/guide/developer)
+- [Contributing Code to Jupyter Book](https://jupyterbook.org/stable/contribute/code)

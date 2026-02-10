@@ -8,7 +8,7 @@ subtitle: Have a question? Found a bug? Visit our dedicated help resources.
 
 Jupyter Book is built on top of the MyST Document Engine.
 The separation between the two applications is so small that we share the same CLI and configuration files.
-See [our ecosystem documentation](ecosystem.md) for more information.
+See [our ecosystem documentation](./community/ecosystem.md) for more information.
 
 Bug reports and requests should take place on the [`mystmd/` repository](https://github.com/jupyter-book/mystmd), since that is where most changes will happen.
 :::
