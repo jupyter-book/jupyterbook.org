@@ -13,7 +13,7 @@ Built on the [MyST Document Engine](https://mystmd.org) with faster builds, mode
 Jupyter Book 2 still has many improvements to be made.
 Please join us and [contribute to Jupyter Book](./contribute.md) so we can make it better!
 
-[Upgrade from 1.0](xref:docs/resources/upgrade) • [Known limitations](xref:docs#known-limitations) • [Frequently Asked Questions](xref:docs/resources/faq#faq-general) • If you still use Jupyter Book 1, install `jupyter-book<2` and see the [v1 documentation](https://jupyterbook.org/v1)
+[Upgrade from 1.0](xref:docs/resources/upgrade) • [Known limitations](xref:docs#known-limitations) • [Frequently Asked Questions](xref:docs/resources/faq#faq-general) • [v1 documentation](https://jupyterbook.org/v1)
 :::
 
 +++ {"class": "col-page-inset"}
