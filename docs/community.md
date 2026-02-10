@@ -2,6 +2,13 @@
 
 Jupyter Book is an **open source project** with a **diverse community of contributors and leaders**. It is a sub-project of [Project Jupyter](https://jupyter.org). Here are a few ways that you can engage with our community.
 
+## About the project
+
+- [Jupyter Book & MyST ecosystem](./community/ecosystem.md): how Jupyter Book fits into the broader MyST ecosystem
+- [Core team and governance](./community/team.md): who maintains the project and how it’s run
+- [Contributing guide](./contribute.md): where and how to contribute to this project
+- [Project history](./community/history.md): how Jupyter Book got here
+
 ## Where to talk
 
 ::::{grid} 3

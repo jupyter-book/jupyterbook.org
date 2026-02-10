@@ -59,7 +59,7 @@ project:
         - file: releases/thebe.md
     - file: cite.md
       title: 📚 Cite Jupyter Book
-    - title: 👥 About Jupyter Book
+    - title: 👥 About the project
       children:
         - file: community/team.md
         - file: community/ecosystem.md
