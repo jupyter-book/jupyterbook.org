@@ -15,8 +15,8 @@ Here it is:
 
 The meeting schedule for Jupyter Book Collaboration Cafes
 ::::
-(hi)=
-### Monthly collaboration cafes
+
+### Collaboration cafes
 
 Collaboration cafes are a way for any member of the Jupyter Book community to remotely get together to share what they've been up to, have discussions, and work together. You are welcome to join as long as you're interested in Jupyter Book!
 
@@ -30,6 +30,14 @@ See [](xref:compass/facilitator-checklist) for instructions on how to facilitate
 This is an experiment in opening up our team practices. [Here's a blog post explaining our goals][expt]. We'd love feedback on how we can improve these meetings in a sustainable way.
 :::
 
+(working-sessions)=
+### Working sessions
+
+The development team has a semi-regular working meeting, see the calendar for times and invitation links.
+These are places for us to dig into code, have deeper design discussions and decisions, and move forward major project efforts that require in-depth discussion.
+Anyone is welcome to join, though the agenda and conversation is driven by the development priorities of the [core team](team.md).
+
+(jupyter-events)=
 ### Jupyter-wide events
 
 There are also many other events in the Jupyter ecosystem! See the [Jupyter Community events page](https://jupyter.org/community) for events across the Jupyter community.
