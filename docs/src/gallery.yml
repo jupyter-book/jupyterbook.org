@@ -103,7 +103,7 @@
   description: Computational mechanics demos of dolfiny, an extension module of the finite element library FEniCSx, rendered as jupyter book.
   tags: Computational Mechanics; FEniCS; Documentation; University of Luxembourg
 
-- - title: Programando la Historia
+- title: Programando la Historia
   authors: Claudio Rojas Monsalves
   url: https://claudiorojasmon.github.io/apuntes_2025/
   description: >
