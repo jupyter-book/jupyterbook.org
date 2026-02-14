@@ -37,6 +37,10 @@ project:
       title: 🖼️ Gallery of Jupyter Books
     - file: community/index.md
       title: 🌍 Community Guide
+      children:
+        - file: community/team.md
+        - file: community/ecosystem.md
+        - file: community/history.md
     - file: events.md
       title: 🗓️ Events Calendar
     - file: vote.md
@@ -59,11 +63,6 @@ project:
         - file: releases/thebe.md
     - file: cite.md
       title: 📚 Cite Jupyter Book
-    - title: 👥 About the project
-      children:
-        - file: community/team.md
-        - file: community/ecosystem.md
-        - file: community/history.md
 site:
   options:
     style: media/custom.css
