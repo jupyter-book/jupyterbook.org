@@ -44,7 +44,7 @@ project:
     - file: roadmap.md
       title: ❗ Development priorities
     - title: 📝 Contributing guide
-      file: contribute.md
+      file: contribute/index.md
       children:
         - file: contribute/help.md
         - file: contribute/docs.md
