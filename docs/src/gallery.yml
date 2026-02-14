@@ -64,7 +64,7 @@
 - name: "NumPy Tutorials"
   website: https://numpy.org/numpy-tutorials/
   repository: https://github.com/numpy/numpy-tutorials
-  image: https://raw.githubusercontent.com/numpy/numpy-tutorials/main/site/_static/numpylogo.svg
+  image: https://raw.githubusercontent.com/numpy/numpy-tutorials/refs/heads/main/_static/numpylogo.svg
   description: "NumPy tutorials & educational content in notebook format"
   tags: NumPy; Tutorials
 

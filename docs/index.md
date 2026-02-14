@@ -11,7 +11,7 @@ site:
 :::{attention} Jupyter Book 2 is here!
 Built on the [MyST Document Engine](https://mystmd.org) with faster builds, modern features, and improved workflows.
 Jupyter Book 2 still has many improvements to be made.
-Please join us and [contribute to Jupyter Book](./contribute.md) so we can make it better!
+Please join us and [contribute to Jupyter Book](./contribute/index.md) so we can make it better!
 
 [Upgrade from 1.0](xref:docs/resources/upgrade) • [Known limitations](xref:docs#known-limitations) • [Frequently Asked Questions](xref:docs/resources/faq#faq-general) • [JBv1 documentation](https://jupyterbook.org/v1/)
 :::
@@ -43,7 +43,7 @@ jupyter book start
 +++
 ## New to Jupyter Book?
 
-Start here: [Docs](xref:docs/) • [Gallery](./gallery.md) • [Get help](./help.md) • [Community](./community.md) • [Jupyter Book vs MyST](./community/ecosystem.md)
+Start here: [Docs](xref:docs/) • [Gallery](./gallery.md) • [Get help](./help.md) • [Community](./community/index.md) • [Jupyter Book vs MyST](./community/ecosystem.md)
 
 
 ## See It in Action
@@ -111,10 +111,10 @@ Customize your workflow
 [Explore plugins →](xref:docs/plugins)
 ::::
 ::::{card} 💬 Community
-:link: ./community.md
+:link: ./community/index.md
 Get help and contribute
 +++
-[Join us →](./community.md)
+[Join us →](./community/index.md)
 ::::
 ::::{card} 📚 Gallery
 :link: ./gallery.md

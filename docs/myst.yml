@@ -35,7 +35,7 @@ project:
       title: 🙋 Get Help
     - file: gallery.md
       title: 🖼️ Gallery of Jupyter Books
-    - file: community.md
+    - file: community/index.md
       title: 🌍 Community Guide
     - file: events.md
       title: 🗓️ Events Calendar
@@ -50,7 +50,7 @@ project:
         - file: contribute/docs.md
         - file: contribute/code.md
     - title: 🚀 Releases
-      file: releases.md
+      file: releases/index.md
       children:
         - file: releases/jupyter-book.md
         - file: releases/mystmd.md
