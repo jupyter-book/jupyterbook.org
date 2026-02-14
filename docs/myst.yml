@@ -35,8 +35,12 @@ project:
       title: 🙋 Get Help
     - file: gallery.md
       title: 🖼️ Gallery of Jupyter Books
-    - file: community.md
+    - file: community/index.md
       title: 🌍 Community Guide
+      children:
+        - file: community/team.md
+        - file: community/ecosystem.md
+        - file: community/history.md
     - file: events.md
       title: 🗓️ Events Calendar
     - file: vote.md
@@ -44,13 +48,13 @@ project:
     - file: roadmap.md
       title: ❗ Development priorities
     - title: 📝 Contributing guide
-      file: contribute.md
+      file: contribute/index.md
       children:
         - file: contribute/help.md
         - file: contribute/docs.md
         - file: contribute/code.md
     - title: 🚀 Releases
-      file: releases.md
+      file: releases/index.md
       children:
         - file: releases/jupyter-book.md
         - file: releases/mystmd.md
@@ -59,11 +63,6 @@ project:
         - file: releases/thebe.md
     - file: cite.md
       title: 📚 Cite Jupyter Book
-    - title: 👥 About the project
-      children:
-        - file: community/team.md
-        - file: community/ecosystem.md
-        - file: community/history.md
 site:
   options:
     style: media/custom.css
