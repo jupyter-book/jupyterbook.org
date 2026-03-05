@@ -106,7 +106,7 @@
 - name: Applied Linear Algebra
   website: https://thelinearalgebrabook.com
   repository: https://github.com/jwjohnson314/linear-algebra-book
-  image: https://github.com/jwjohnson314/linear-algebra-book/assets/logo.png
+  image: https://raw.githubusercontent.com/jwjohnson314/linear-algebra-book/refs/heads/main/assets/logo.png
   description: An introduction to linear algebra with a focus on numerical methods and applications in machine learning and AI.
   tags: Mathematics; Machine Learning; AI; Education 
 
