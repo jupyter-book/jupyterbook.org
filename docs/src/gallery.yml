@@ -103,16 +103,9 @@
   description: Computational mechanics demos of dolfiny, an extension module of the finite element library FEniCSx, rendered as jupyter book.
   tags: Computational Mechanics; FEniCS; Documentation; University of Luxembourg
 
-- name: Applied Linear Algebra
-  website: https://thelinearalgebrabook.com
-  repository: https://github.com/jwjohnson314/linear-algebra-book
-  image: https://raw.githubusercontent.com/jwjohnson314/linear-algebra-book/refs/heads/main/assets/logo.png
-  description: An introduction to linear algebra with a focus on numerical methods and applications in machine learning and AI.
-  tags: Mathematics; Machine Learning; AI; Education 
-
 - name: Mastering Security Testing for Python
   website: https://securitytesting.nocomplexity.com/
   repository: https://github.com/nocomplexity/securitytesting
   image: https://raw.githubusercontent.com/nocomplexity/securitytesting/refs/heads/main/images/ca_logo_small.png
   description: Gain a deep understanding of the methodologies and specialized tools used to conduct professional-grade security validation for Python applications.
-  tags: Python; Cybersecurity; SAST; Course; Education;
+  tags: Python; Cybersecurity; SAST; Course ; Education;
