@@ -2,6 +2,14 @@
 
 Jupyter Book is an **open source project** with a **diverse community of contributors and leaders**. It is a sub-project of [Project Jupyter](https://jupyter.org). Here are a few ways that you can engage with our community.
 
+## About the project
+
+- [Jupyter Book & MyST ecosystem](./ecosystem.md): how Jupyter Book fits into the broader MyST ecosystem
+- [Core team and governance](./team.md): who maintains the project and how it’s run
+- [Jobs and recruitment](jobs.md): funded opportunities to work on Jupyter Book
+- [Contributing guide](../contribute/index.md): where and how to contribute to this project
+- [Project history](./history.md): how Jupyter Book got here
+
 ## Where to talk
 
 ::::{grid} 3
@@ -18,7 +26,7 @@ For general conversation about the MyST Markdown engine.
 Click to visit the GitHub Discussions forum →
 :::
 :::{card} Events calendar 🗓️
-:link: events
+:link: ../events.md
 Connect with others in the Jupyter Book community in real-time.
 +++
 Click to see our events calendar →
@@ -49,13 +57,13 @@ Click to visit the `mystmd` guide →
 ::::{grid} 2
 
 :::{card} Contributing guide
-:link: contribute
+:link: ../contribute/index.md
 Resources for getting involved in our community.
 +++
 Click to visit the Contributing Guide →
 :::
 :::{card} How you can help
-:link: contribute/help
+:link: ../contribute/help.md
 A few ideas for where we could use your help.
 +++
 Click to see the Giving Help Guide →

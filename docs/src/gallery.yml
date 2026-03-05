@@ -64,7 +64,7 @@
 - name: "NumPy Tutorials"
   website: https://numpy.org/numpy-tutorials/
   repository: https://github.com/numpy/numpy-tutorials
-  image: https://raw.githubusercontent.com/numpy/numpy-tutorials/main/site/_static/numpylogo.svg
+  image: https://raw.githubusercontent.com/numpy/numpy-tutorials/refs/heads/main/_static/numpylogo.svg
   description: "NumPy tutorials & educational content in notebook format"
   tags: NumPy; Tutorials
 
@@ -110,3 +110,10 @@
     Libro de Tecnología para II° Medio con contenidos sobre Inteligencia Artificial, 
     programación básica y Python, usando ejemplos de Historia de Chile e Historia Universal.
   image: https://claudiorojasmon.github.io/apuntes_2025/_static/Original.png
+
+- name: Mastering Security Testing for Python
+  website: https://securitytesting.nocomplexity.com/
+  repository: https://github.com/nocomplexity/securitytesting
+  image: https://raw.githubusercontent.com/nocomplexity/securitytesting/refs/heads/main/images/ca_logo_small.png
+  description: Gain a deep understanding of the methodologies and specialized tools used to conduct professional-grade security validation for Python applications.
+  tags: Python; Cybersecurity; SAST; Course; Education;

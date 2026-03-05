@@ -23,11 +23,11 @@ project:
     - src/directives.mjs
     - src/admonition.mjs
     # The issue tables plugin is what we use for the roadmap and feature voting pages
-    - https://github.com/jupyter-book/myst-plugins/releases/download/github-issue-table@2025-12-07/index.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/github-issue-table@2026-02-09/index.mjs
+    # Converts @username mentions to GitHub profile links
+    - https://github.com/jupyter-book/myst-plugins/releases/download/github-handle-links@2026-02-12/index.mjs
     # The release notes plugin is for displaying release notes from GitHub
     - https://github.com/jupyter-book/myst-release-notes/releases/download/v0.1.1/index.mjs
-    # Converts @username mentions to GitHub profile links
-    - https://github.com/jupyter-book/myst-plugins/releases/download/github-handle-links%402026-01-30/index.mjs
   github: https://github.com/jupyter-book/jupyterbook.org
   toc:
     - file: index.md
@@ -35,8 +35,15 @@ project:
       title: 🙋 Get Help
     - file: gallery.md
       title: 🖼️ Gallery of Jupyter Books
-    - file: community.md
+    - file: community/index.md
       title: 🌍 Community Guide
+      children:
+        - file: community/team.md
+        - file: community/jobs/index.md
+          children:
+            - file: community/jobs/2026-03-community-mgr.md
+        - file: community/ecosystem.md
+        - file: community/history.md
     - file: events.md
       title: 🗓️ Events Calendar
     - file: vote.md
@@ -44,13 +51,13 @@ project:
     - file: roadmap.md
       title: ❗ Development priorities
     - title: 📝 Contributing guide
-      file: contribute.md
+      file: contribute/index.md
       children:
         - file: contribute/help.md
         - file: contribute/docs.md
         - file: contribute/code.md
     - title: 🚀 Releases
-      file: releases.md
+      file: releases/index.md
       children:
         - file: releases/jupyter-book.md
         - file: releases/mystmd.md
@@ -59,11 +66,6 @@ project:
         - file: releases/thebe.md
     - file: cite.md
       title: 📚 Cite Jupyter Book
-    - title: 👥 About Jupyter Book
-      children:
-        - file: community/team.md
-        - file: community/ecosystem.md
-        - file: community/history.md
 site:
   options:
     style: media/custom.css
