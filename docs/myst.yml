@@ -39,6 +39,9 @@ project:
       title: 🌍 Community Guide
       children:
         - file: community/team.md
+        - file: community/jobs/index.md
+          children:
+            - file: community/jobs/2026-03-community-mgr.md
         - file: community/ecosystem.md
         - file: community/history.md
     - file: events.md

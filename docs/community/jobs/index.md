@@ -8,14 +8,14 @@ description: This page highlights any open calls we have for funded positions wi
 
 This page highlights any open calls we have for funded positions within JupyterHub.
 
-## Currently open calls
+## Open calls
 
-::::{grid}
-:gutter: 3
-
-:::{grid-item-card} Community Manager
-Community Manager for JupyterHub and Jupyter Book
-[Call for applications](2026-03-community-mgr.md)
+::::{grid} 1 1 2 2
+:::{grid-item-card} Community Manager for JupyterHub and Jupyter Book
+:link: 2026-03-community-mgr.md
+![](/media/images/noun-gardening-8049010.svg)
++++
+📆 Apply by [29 March 2026](2026-03-community-mgr.md)
 :::
 ::::
 

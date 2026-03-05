@@ -1,4 +1,9 @@
-(2026-03-community-mgr)=
+---
+title: Community Manager for JupyterHub and Jupyter Book
+subtitle: Align maintainer and contributor actions with the goals of each project and build bridges across the Jupyter ecosystem.
+description: Role description and information on how to apply to join the Jupyter Book and JupyterHub projects as a community manager.
+---
+
 # Community Manager for JupyterHub and Jupyter Book
 
 The [JupyterHub](https://jupyter.org/hub) and [Jupyter Book](https://jupyterbook.org) communities are hiring a **community manager**.
@@ -13,7 +18,7 @@ The community manager will be responsible for identifying and developing activit
 You can read more about our motivation for this role in the [proposal](https://github.com/jupyter-governance/funding-proposals/issues/6), part of the Jupyter Foundation’s [Community Funding](https://jupyterfoundation.org/community-funding-proposals) initiative.
 We particularly encourage applicants to review the section "*Impact Metrics: How do we define success?*"
 
-In this blog post we have outlined the community manager's [Responsibilities](#responsibilities), their [Preferred expertise](#preferred-expertise), and [How to apply](#how-to-apply).
+In this post we have outlined the community manager's [Responsibilities](#2026-cm-responsibilities), their [Preferred expertise](#2026-cm-preferred-expertise), and [How to apply](#2026-cm-how-to-apply).
 
 **This is a contract role, funded at $90,000 to be spent by the end of April 2027.**
 The community manager will be engaged as a contractor of the Linux Foundation and will follow the standard Linux Foundation contractor onboarding process.
