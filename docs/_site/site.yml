@@ -21,3 +21,5 @@ site:
     logo: https://raw.githubusercontent.com/jupyter-book/jupyterbook.org/refs/heads/main/docs/media/images/logo.svg
     logo_dark: https://raw.githubusercontent.com/jupyter-book/jupyterbook.org/refs/heads/main/docs/media/images/logo-dark.svg
     internal_domains: jupyterbook.org
+  parts:
+    footer: https://raw.githubusercontent.com/jupyter-book/jupyterbook.org/refs/heads/main/docs/_site/footer.md

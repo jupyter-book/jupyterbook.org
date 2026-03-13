@@ -70,5 +70,3 @@ site:
   options:
     style: media/custom.css
     folders: true
-  parts:
-    footer: _site/footer.md
