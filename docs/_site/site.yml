@@ -23,3 +23,5 @@ site:
     internal_domains: jupyterbook.org
   parts:
     footer: https://raw.githubusercontent.com/jupyter-book/jupyterbook.org/refs/heads/main/docs/_site/footer.md
+
+

@@ -1,45 +1,25 @@
-% Inspired by https://github.com/jupyter-book/example-landing-pages
-:::::{grid} 3 3 5 5
-:class: outer-grid col-screen
+```{footer}
+title: Jupyter Book
+description: Create beautiful, publication-quality books and documents from computational content.
+logo: https://raw.githubusercontent.com/jupyter-book/jupyterbook.org/refs/heads/main/docs/media/images/logo-square.svg
+copyright: © 2026 Jupyter Book Contributors. Licensed under BSD-3.
 
-::::{div}
+links:
+  Documentation:
+    - Getting Started: https://jupyterbook.org/stable/get-started/
+    - User Guide: https://mystmd.org/guide
+    - Reference: https://mystmd.org/guide/syntax-overview
+  Community:
+    - GitHub: https://github.com/jupyter-book
+    - Chat with us: https://discord.mystmd.org
+    - Contributing: https://jupyterbook.org/contribute/
+  Related Projects:
+    - MyST Markdown: https://mystmd.org
+    - MyST Sandbox: https://mystmd.org/sandbox
+    - Project Jupyter: https://jupyter.org
 
-# Jupyter Book
-
-```{image} ../media/images/logo-square.svg
-:width: 50px
-:align: left
+icons:
+  github: https://github.com/jupyter-book
+  bluesky: https://bsky.app/profile/mystmd.org
+  discord: https://discord.mystmd.org
 ```
-
-Jupyter Book allows you to create documents and knowledge bases that are **reusable**, **reproducible**, and **interactive**.
-::::
-
-<!-- Spacer between project description and links columns -->
-
-::::{div}
-::::
-
-<!-- Link columns -->
-
-::::{grid .links} 1 1 2 2
-:::{div}
-
-Technical projects
-
-- [MyST Document Engine](https://mystmd.org)
-- [About MyST Markdown](https://mystmd.org/overview/ecosystem)
-- [MyST sandbox](https://mystmd.org/sandbox)
-
-:::
-
-:::{div}
-About the project
-
-- [Team compass](https://jupyterbook.org/compass) |
-- [Contributing guide](https://jupyterbook.org/contribute) |
-- [Project Jupyter](https://jupyter.org)
-
-:::
-::::
-
-:::::
