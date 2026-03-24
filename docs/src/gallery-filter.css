@@ -1,0 +1,28 @@
+/** Just simple button design stuff for nice UI */
+.gallery-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.gallery-filter-btn {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.15s, color 0.15s;
+  margin: .2rem;
+}
+
+.gallery-filter-btn:hover {
+  background: #e8e8e8;
+}
+
+.gallery-filter-btn.active {
+  background: #4a69bd;
+  color: #fff;
+  border-color: #4a69bd;
+}

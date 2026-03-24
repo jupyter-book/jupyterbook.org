@@ -15,6 +15,13 @@ random.shuffle(items)
 
 lines = []
 
+# Anywidget filter buttons
+lines.append("```{anywidget} ./src/gallery-filter.mjs")
+lines.append(":css: ./src/gallery-filter.css")
+lines.append("{}")
+lines.append("```")
+lines.append("")
+
 lines.append("::::{grid} 2 2 2 2")
 
 for it in items:
