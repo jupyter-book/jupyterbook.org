@@ -28,6 +28,8 @@ project:
     - https://github.com/jupyter-book/myst-plugins/releases/download/github-handle-links@2026-02-12/index.mjs
     # The release notes plugin is for displaying release notes from GitHub
     - https://github.com/jupyter-book/myst-release-notes/releases/download/v0.1.1/index.mjs
+    # Footer widget plugin
+    - https://github.com/jupyter-book/myst-plugins/releases/download/footer-latest/index.mjs
   github: https://github.com/jupyter-book/jupyterbook.org
   toc:
     - file: index.md
