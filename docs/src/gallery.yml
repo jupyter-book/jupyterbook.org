@@ -109,3 +109,10 @@
   image: https://raw.githubusercontent.com/nocomplexity/securitytesting/refs/heads/main/images/ca_logo_small.png
   description: Gain a deep understanding of the methodologies and specialized tools used to conduct professional-grade security validation for Python applications.
   tags: Python; Cybersecurity; SAST; Course; Education;
+
+- name: PyRIT - Python Risk Identification Tool for Generative AI
+  website: https://microsoft.github.io/PyRIT
+  repository: https://github.com/microsoft/PyRIT
+  image: https://raw.githubusercontent.com/microsoft/PyRIT/refs/heads/main/doc/roakey.png
+  description: The guide for the PyRIT open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.
+  tags: Python; AI Red Teaming; AI Security; AI Safety;
