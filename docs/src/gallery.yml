@@ -116,3 +116,24 @@
   image: https://raw.githubusercontent.com/microsoft/PyRIT/refs/heads/main/doc/roakey.png
   description: The guide for the PyRIT open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.
   tags: Python; AI Red Teaming; AI Security; AI Safety;
+  
+- name: Introduction to GIS Programming
+  website: https://gispro.gishub.org
+  repository: https://github.com/giswqs/intro-gispro
+  image: https://raw.githubusercontent.com/giswqs/intro-gispro/refs/heads/main/logo.png
+  description: A hands-on introduction to GIS programming with Python, covering core concepts, geospatial data processing, and interactive mapping using open-source tools.
+  tags: GIS, Python, Geospatial, Open Source, Education
+
+- name: Spatial Data Management with DuckDB
+  website: https://duckdb.gishub.org
+  repository: https://github.com/giswqs/duckdb-spatial
+  image: https://raw.githubusercontent.com/giswqs/duckdb-spatial/refs/heads/main/logo.png
+  description: A practical guide to managing and analyzing large-scale spatial data using DuckDB, focusing on efficient SQL workflows and modern geospatial analytics.
+  tags: DuckDB, SQL, Spatial Data, Analytics, Geospatial
+
+- name: GeoAI with Python
+  website: https://book.opengeoai.org
+  repository: https://github.com/giswqs/GeoAI-Book
+  image: https://raw.githubusercontent.com/giswqs/GeoAI-Book/refs/heads/main/logo.png
+  description: A comprehensive guide to applying artificial intelligence to geospatial data, including remote sensing, deep learning, and foundation models for Earth observation.
+  tags: GeoAI, Machine Learning, Remote Sensing, Python, AI
