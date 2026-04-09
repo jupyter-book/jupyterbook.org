@@ -137,3 +137,10 @@
   image: https://raw.githubusercontent.com/giswqs/GeoAI-Book/refs/heads/main/logo.png
   description: A comprehensive guide to applying artificial intelligence to geospatial data, including remote sensing, deep learning, and foundation models for Earth observation.
   tags: GeoAI, Machine Learning, Remote Sensing, Python, AI
+
+- name: Mathematics for Machine Learning
+  website: https://notes.eecs245.org
+  repository: https://github.com/eecs245/notes
+  image: https://eecs245.org/assets/site-images/logo.png
+  description: An introduction to linear algebra in the context of machine learning, with some statistics, calculus, and Python sprinkled in.
+  tags: Education; Machine Learning; Linear Algebra; Calculus; Statistics; Mathematics
