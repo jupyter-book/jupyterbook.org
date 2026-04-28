@@ -12,13 +12,13 @@
   description: A GitHub Template repository designed for use in Jupyter Book 2 and MyST workshops.
   tags: JupyterBook; Tutorial
 
-- name: JupyterBook v2 + JupyterLite Template
+- name: Jupyter Book Template with Editable Pyodide Code Cells
   website: https://chandraveshchaudhari.github.io/jupyterbook2_with_lite_template/
   repository: https://github.com/chandraveshchaudhari/jupyterbook2_with_lite_template
   image: https://raw.githubusercontent.com/chandraveshchaudhari/jupyterbook2_with_lite_template/main/media/images/banner_image.png
-  description: A GitHub template for Jupyter Book v2 (MyST) with in-page Python editor with syntax highlighting using JupyterLite and Pyodide.
-  tags: JupyterBook; Template; JupyterLite; Pyodide
-
+  description: A Jupyter Book v2 (MyST) template with editable, syntax-highlighted Python code cells powered by JupyterLite (Pyodide), enabling client-side execution in the browser without a backend, including offline use after initial load.
+  tags: JupyterBook; Template; JupyterLite; Pyodide; Interactive; Offline
+  
 - name: The Turing Way handbook to reproducible, ethical and collaborative data science.
   website: https://book.the-turing-way.org/
   repository: https://github.com/the-turing-way/the-turing-way
