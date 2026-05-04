@@ -52,6 +52,8 @@ project:
       title: 🙌 Vote on Features
     - file: roadmap.md
       title: ❗ Development priorities
+    - file: accessibility.md
+      title: ♿ Accessibility
     - title: 📝 Contributing guide
       file: contribute/index.md
       children:
