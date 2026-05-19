@@ -18,7 +18,7 @@
   image: https://raw.githubusercontent.com/chandraveshchaudhari/jupyterbook2_with_lite_template/main/media/images/banner_image.png
   description: A Jupyter Book v2 (MyST) template with editable, syntax-highlighted Python code cells powered by JupyterLite (Pyodide), enabling client-side execution in the browser without a backend, including offline use after initial load.
   tags: JupyterBook; Template; JupyterLite; Pyodide; Interactive; Offline
-  
+
 - name: The Turing Way handbook to reproducible, ethical and collaborative data science.
   website: https://book.the-turing-way.org/
   repository: https://github.com/the-turing-way/the-turing-way
@@ -123,7 +123,7 @@
   image: https://raw.githubusercontent.com/microsoft/PyRIT/refs/heads/main/doc/roakey.png
   description: The guide for the PyRIT open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.
   tags: Python; AI Red Teaming; AI Security; AI Safety;
-  
+
 - name: Introduction to GIS Programming
   website: https://gispro.gishub.org
   repository: https://github.com/giswqs/intro-gispro
@@ -151,3 +151,10 @@
   image: https://eecs245.org/assets/site-images/logo.png
   description: An introduction to linear algebra in the context of machine learning, with some statistics, calculus, and Python sprinkled in.
   tags: Education; Machine Learning; Linear Algebra; Calculus; Statistics; Mathematics
+
+- name: UC OSPO Network
+  website: https://ucospo.net/
+  repository: https://github.com/UC-OSPO-Network/ucospo.net
+  image: https://raw.githubusercontent.com/UC-OSPO-Network/ucospo.net/refs/heads/main/static/images/logo.svg
+  description: The official website of the University of California Network of Open Source Program Offices (OSPOs).
+  tags: University of California; Education
