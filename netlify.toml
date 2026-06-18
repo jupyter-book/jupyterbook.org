@@ -3,7 +3,7 @@
 # If it expires, anybody can regenerate a new one and update the Netlify settings.
 # Permissions needed: read from public repositories, read from *projects* on jupyter-book org.
 [build]
-  command = "bash netlify-build.sh"
+  command = "cd docs && npm install && npx myst build --html --execute"
   publish = "docs/_build/html"
 
 # ----------------------------------------------------------------------------
