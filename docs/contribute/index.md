@@ -17,8 +17,8 @@ Jupyter Book is part of the wider MyST ecosystem. Use this page to find the righ
 ## Shared project guidance
 
 - [MyST contribution guide](https://mystmd.org/guide/contributing)
-- [Code of conduct](https://compass.jupyterbook.org/code-of-conduct)
-- [Team compass and governance](https://compass.jupyterbook.org)
+- [Code of conduct](xref:compass/code-of-conduct)
+- [Team compass and governance](xref:compass)
 
 ## Project Resources
 
