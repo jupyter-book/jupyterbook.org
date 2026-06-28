@@ -24,6 +24,13 @@
 # ----------------------------------------------------------------------------
 # TEAM COMPASS
 # ----------------------------------------------------------------------------
+#  Redirect from when we used to use a subdomain for the compass
+[[redirects]]
+  from = "https://compass.jupyterbook.org/*"
+  to = "https://jupyterbook.org/compass/:splat"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/compass"
   to = "https://jupyter-book-team-compass.netlify.app/compass/"
