@@ -9,9 +9,9 @@ Jupyter Book is part of the wider MyST ecosystem. Use this page to find the righ
 
 ## Start here
 
-- [Code contributions](./contribute/code.md): where code changes go and how to get started
-- [Documentation strategy](./contribute/docs.md): which repo should host your docs change
-- [Community help](./contribute/help.md): ways to support others
+- [Code contributions](./code.md): where code changes go and how to get started
+- [Documentation strategy](./docs.md): which repo should host your docs change
+- [Community help](./help.md): ways to support others
 - [Team priorities](https://github.com/orgs/jupyter-book/projects/1): issues the team is most interested in
 
 ## Shared project guidance
