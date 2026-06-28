@@ -18,6 +18,8 @@ project:
     CLI: Command-Line Interface
     TOC: Table of Contents
   plugins:
+    # The listing plugin powers the gallery (docs/gallery.md from gallery.yml)
+    - https://github.com/myst-contrib/myst-listing/releases/latest/download/plugin.mjs
     - src/xref.mjs
     - src/landing-page.mjs
     - src/directives.mjs
