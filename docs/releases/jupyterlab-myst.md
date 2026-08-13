@@ -7,6 +7,7 @@ Release notes for [JupyterLab MyST](https://github.com/jupyter-book/jupyterlab-m
 
 ```{release-notes} jupyter-book/jupyterlab-myst
 :after: -6m
+:group-by: minor
 :skip-sections: Contributors to this release|Full Changelog
 :skip-lines: 🚀 Release
 :remove-empty-sections:

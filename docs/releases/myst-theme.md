@@ -7,6 +7,7 @@ Release notes for the [MyST Theme](https://github.com/jupyter-book/myst-theme) p
 
 ```{release-notes} jupyter-book/myst-theme
 :after: -6m
+:group-by: minor
 :skip-sections: Contributors to this release|Full Changelog
 :skip-lines: 🚀 Release
 :remove-empty-sections:
