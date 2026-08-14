@@ -22,8 +22,6 @@ project:
     - src/landing-page.mjs
     - src/directives.mjs
     - src/admonition.mjs
-    # GitHub plugins: issue tables (roadmap/voting pages), issue link decoration, and @username profile links
-    - https://github.com/myst-contrib/myst-github/releases/latest/download/index.mjs
     # The release notes plugin is for displaying release notes from GitHub
     - https://github.com/myst-contrib/myst-release-notes/releases/latest/download/index.mjs
     # Footer widget plugin
@@ -32,6 +30,8 @@ project:
     - https://github.com/myst-contrib/myst-listing/releases/latest/download/plugin.mjs
     # Search bar that filters the gallery cards
     - https://github.com/jupyter-book/myst-plugins/raw/refs/heads/main/plugins/searchfilter/searchfilter.mjs
+    # GitHub plugins: issue tables (roadmap/voting pages), issue link decoration, and @username profile links
+    - https://github.com/myst-contrib/myst-github/releases/latest/download/index.mjs
   github: https://github.com/jupyter-book/jupyterbook.org
   toc:
     - file: index.md
