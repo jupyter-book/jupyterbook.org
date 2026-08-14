@@ -25,7 +25,7 @@ project:
     # GitHub plugins: issue tables (roadmap/voting pages), issue link decoration, and @username profile links
     - https://github.com/myst-contrib/myst-github/releases/latest/download/index.mjs
     # The release notes plugin is for displaying release notes from GitHub
-    - https://github.com/myst-contrib/myst-release-notes/releases/download/v0.2.0/index.mjs
+    - https://github.com/myst-contrib/myst-release-notes/releases/latest/download/index.mjs
     # Footer widget plugin
     - https://github.com/jupyter-book/myst-plugins/releases/download/footer-latest/index.mjs
     # Listing directive, used for the gallery page
