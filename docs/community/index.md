@@ -6,7 +6,7 @@ Jupyter Book is an **open source project** with a **diverse community of contrib
 
 - [Jupyter Book & MyST ecosystem](./ecosystem.md): how Jupyter Book fits into the broader MyST ecosystem
 - [Core team and governance](./team.md): who maintains the project and how it’s run
-- [Jobs and recruitment](jobs.md): funded opportunities to work on Jupyter Book
+- [Jobs and recruitment](./jobs/index.md): funded opportunities to work on Jupyter Book
 - [Contributing guide](../contribute/index.md): where and how to contribute to this project
 - [Project history](./history.md): how Jupyter Book got here
 
