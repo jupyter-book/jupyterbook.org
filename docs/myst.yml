@@ -22,18 +22,16 @@ project:
     - src/landing-page.mjs
     - src/directives.mjs
     - src/admonition.mjs
-    # The issue tables plugin is what we use for the roadmap and feature voting pages
-    - https://github.com/jupyter-book/myst-plugins/releases/download/github-issue-table@2026-02-09/index.mjs
-    # Converts @username mentions to GitHub profile links
-    - https://github.com/jupyter-book/myst-plugins/releases/download/github-handle-links@2026-02-12/index.mjs
     # The release notes plugin is for displaying release notes from GitHub
-    - https://github.com/jupyter-book/myst-release-notes/releases/download/v0.1.1/index.mjs
+    - https://github.com/myst-contrib/myst-release-notes/releases/latest/download/index.mjs
     # Footer widget plugin
     - https://github.com/jupyter-book/myst-plugins/releases/download/footer-latest/index.mjs
     # Listing directive, used for the gallery page
     - https://github.com/myst-contrib/myst-listing/releases/latest/download/plugin.mjs
     # Search bar that filters the gallery cards
     - https://github.com/jupyter-book/myst-plugins/raw/refs/heads/main/plugins/searchfilter/searchfilter.mjs
+    # GitHub plugins: issue tables (roadmap/voting pages), issue link decoration, and @username profile links
+    - https://github.com/myst-contrib/myst-github/releases/latest/download/index.mjs
   github: https://github.com/jupyter-book/jupyterbook.org
   toc:
     - file: index.md
