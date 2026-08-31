@@ -34,7 +34,7 @@ _Write in Notebooks or Markdown, execute code, cross-reference content, and publ
 ```{code-block} bash
 :filename: install
 pip install jupyter-book
-jupyter book start
+jupyter book init
 ```
 
 {button}`Get started → <xref:docs/>` {button}`Upgrade from JB1 → <xref:docs/resources/upgrade>`
