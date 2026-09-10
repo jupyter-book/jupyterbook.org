@@ -75,3 +75,4 @@ project:
 site:
   options:
     folders: true
+    analytics_plausible: jupyterbook.org
