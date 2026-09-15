@@ -35,6 +35,7 @@ _Write in Notebooks or Markdown, execute code, cross-reference content, and publ
 :filename: install
 pip install jupyter-book
 jupyter book init
+jupyter book start
 ```
 
 {button}`Get started → <xref:docs/>` {button}`Upgrade from JB1 → <xref:docs/resources/upgrade>`
