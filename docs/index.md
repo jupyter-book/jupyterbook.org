@@ -38,7 +38,7 @@ pip install jupyter-book
 jupyter book init
 # Build the site and start a preview server
 jupyter book start
-
+```
 {button}`Get started → <xref:docs/>` {button}`Upgrade from JB1 → <xref:docs/resources/upgrade>`
 ::::::
 
