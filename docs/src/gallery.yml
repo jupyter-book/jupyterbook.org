@@ -158,3 +158,10 @@
   thumbnail: https://raw.githubusercontent.com/UC-OSPO-Network/ucospo.net/refs/heads/main/static/images/logo.svg
   description: The official website of the University of California Network of Open Source Program Offices (OSPOs).
   tags: University of California; Education
+
+- title: Linear Algebra with Python
+  url: https://asj252.github.io/linear-algebra-with-python/
+  repository: https://github.com/asj252/linear-algebra-with-python
+  thumbnail: https://raw.githubusercontent.com/asj252/linear-algebra-with-python/main/images/logo.png
+  description: An interactive linear algebra textbook written as Jupyter notebooks. It starts from the geometry of linear mappings, develops the theory with full proofs, and uses Python throughout for computation, verification, and interactive Plotly figures, from vectors and matrices to the singular value decomposition, with applications in data science and quantum mechanics. Most chapters come with exercises and worked solutions, and every notebook runs on Colab or Binder.
+  tags: Education; Linear Algebra; Mathematics; Python; Interactive; Textbook
