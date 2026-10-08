@@ -15,7 +15,7 @@ This page highlights any open calls we have for funded positions within JupyterH
 :link: 2026-03-community-mgr.md
 ![](/media/images/noun-gardening-8049010.svg)
 +++
-📆 Apply by [29 March 2026](2026-03-community-mgr.md)
+📆 Apply by 29 March 2026
 :::
 ::::
 

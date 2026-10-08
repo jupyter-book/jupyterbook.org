@@ -91,38 +91,26 @@ Start here: [Docs](xref:docs/) • [Gallery](./gallery.md) • [Get help](./help
 ::::{card} 📘 Get Started
 :link: xref:docs/get-started
 Build your first book in minutes
-+++
-[Quick start →](xref:docs/get-started)
 ::::
 ::::{card} 📝 Author Content
 :link: xref:docs/authoring
 Write with MyST Markdown
-+++
-[Learn authoring →](xref:docs/authoring)
 ::::
 ::::{card} 🚀 Build & Publish
 :link: xref:docs/build-and-publish
 Deploy to the web
-+++
-[Publish guide →](xref:docs/build-and-publish)
 ::::
 ::::{card} ⚙️ Extend with Plugins
 :link: xref:docs/plugins
 Customize your workflow
-+++
-[Explore plugins →](xref:docs/plugins)
 ::::
 ::::{card} 💬 Community
 :link: ./community/index.md
 Get help and contribute
-+++
-[Join us →](./community/index.md)
 ::::
 ::::{card} 📚 Gallery
 :link: ./gallery.md
 Explore existing books and projects
-+++
-[Explore gallery →](./gallery.md)
 ::::
 
 :::::
@@ -140,7 +128,6 @@ Includes an FAQ about known limitations and gotchas
 :::
 
 :::{card} Get Help
-:link: ./help.md
 Questions or issues?
 +++
 Visit our [FAQ](xref:docs/resources/faq) for common questions, or reach out via [Discord](https://discord.mystmd.org), [Discussions](https://github.com/orgs/jupyter-book/discussions), or [Vote on features](./vote.md)
