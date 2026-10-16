@@ -165,3 +165,10 @@
   thumbnail: https://raw.githubusercontent.com/asj252/linear-algebra-with-python/main/images/logo.png
   description: An interactive linear algebra textbook written as Jupyter notebooks. It starts from the geometry of linear mappings, develops the theory with full proofs, and uses Python throughout for computation, verification, and interactive Plotly figures, from vectors and matrices to the singular value decomposition, with applications in data science and quantum mechanics. Most chapters come with exercises and worked solutions, and every notebook runs on Colab or Binder.
   tags: Education; Linear Algebra; Mathematics; Python; Interactive; Textbook
+  
+- title: Basics of Image Processing
+  url: https://vincmazet.github.io/bip/
+  repository: https://github.com/vincmazet/bip
+  thumbnail: https://raw.githubusercontent.com/vincmazet/bip/refs/heads/main/src/logo-bip-site.png
+  description: The textbooks of two courses of image processing given at the University of Strasbourg and Télécom Physique Strasbourg (taught in English).
+  tags: Education; Image processing, Textbook; Python
