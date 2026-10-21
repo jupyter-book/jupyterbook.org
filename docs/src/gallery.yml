@@ -172,3 +172,10 @@
   thumbnail: https://raw.githubusercontent.com/vincmazet/bip/refs/heads/main/src/logo-bip-site.png
   description: The textbooks of two courses of image processing given at the University of Strasbourg and Télécom Physique Strasbourg (taught in English).
   tags: Education; Image processing, Textbook; Python
+
+- title: YouTube Monetization Signals by Country
+  url: https://monetizationkit.com/data/book/
+  repository: https://github.com/supertj/youtube-monetization-by-country
+  thumbnail: https://raw.githubusercontent.com/supertj/youtube-monetization-by-country/main/book/thumbnail.png
+  description: A close reading of an open dataset (CC BY 4.0) on how often trending YouTube channels in 50 countries show the public signals of the YouTube Partner Program. It covers how the sample was drawn, how each verdict is inferred, 95% intervals for every country, and how one scoring rule produced the bottom of the ranking. Two notebooks recompute every figure, and the numbers in their text, from the CSV when the book is built.
+  tags: Data Analysis; Open Data; Statistics; Reproducible Research; Python
