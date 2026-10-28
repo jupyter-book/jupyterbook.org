@@ -179,3 +179,10 @@
   thumbnail: https://raw.githubusercontent.com/supertj/youtube-monetization-by-country/main/book/thumbnail.png
   description: A close reading of an open dataset (CC BY 4.0) on how often trending YouTube channels in 50 countries show the public signals of the YouTube Partner Program. It covers how the sample was drawn, how each verdict is inferred, 95% intervals for every country, and how one scoring rule produced the bottom of the ranking. Two notebooks recompute every figure, and the numbers in their text, from the CSV when the book is built.
   tags: Data Analysis; Open Data; Statistics; Reproducible Research; Python
+
+- title: Reading Reddit and Hacker News Threads in Python
+  url: https://comment-scraper.com/book
+  repository: https://github.com/supertj/comment-scraper-python-book
+  thumbnail: https://raw.githubusercontent.com/supertj/comment-scraper-python-book/main/thumbnail.png
+  description: A short book on working with exported Reddit and Hacker News threads in pandas. It checks the reply tree, filters comments by depth, score and original poster, counts the words and phrases people use, and gives an LLM numbered comments, then checks every quote it returns against the comment it cites. The examples use synthetic threads written for the book, and the four notebook chapters run when the book is built.
+  tags: Data Analysis; Text Analysis; LLM; pandas; Python
